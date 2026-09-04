@@ -234,17 +234,17 @@ section{padding:64px 0;}
   .about-grid{grid-template-columns:1fr;gap:24px;}
   .about-grid .about-photo{max-width:320px;margin:0 auto;}
   nav.main-nav{
-    display:none;
+    display:none !important;
     position:absolute;top:100%;left:0;right:0;
     background:var(--bg);flex-direction:column;align-items:stretch;
     padding:8px 24px 20px;gap:0;
     border-bottom:1px solid var(--border);
     box-shadow:0 16px 28px -16px rgba(67,38,35,.3);
   }
-  nav.main-nav.open{display:flex;}
+  nav.main-nav.open{display:flex !important;}
   nav.main-nav a:not(.btn){padding:14px 0;border-bottom:1px solid var(--border);}
   nav.main-nav a.btn{margin-top:14px;}
-  .nav-toggle{display:block;}
+  .nav-toggle{display:block !important;}
   .offer-banner{padding:28px 22px;}
   .contact-list li{flex-direction:column;gap:2px;}
 }
