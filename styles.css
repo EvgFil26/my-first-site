@@ -234,13 +234,16 @@ section{padding:64px 0;}
   .about-grid{grid-template-columns:1fr;gap:24px;}
   .about-grid .about-photo{max-width:320px;margin:0 auto;}
   nav.main-nav{
-    position:fixed;top:60px;left:0;right:0;bottom:0;
-    width:100%;box-sizing:border-box;z-index:50;
-    background:var(--bg);flex-direction:column;align-items:flex-start;
-    padding:24px;gap:20px;transform:translateX(100%);transition:transform .25s ease;
-    overflow-y:auto;
+    display:none;
+    position:absolute;top:100%;left:0;right:0;
+    background:var(--bg);flex-direction:column;align-items:stretch;
+    padding:8px 24px 20px;gap:0;
+    border-bottom:1px solid var(--border);
+    box-shadow:0 16px 28px -16px rgba(67,38,35,.3);
   }
-  nav.main-nav.open{transform:translateX(0);}
+  nav.main-nav.open{display:flex;}
+  nav.main-nav a:not(.btn){padding:14px 0;border-bottom:1px solid var(--border);}
+  nav.main-nav a.btn{margin-top:14px;}
   .nav-toggle{display:block;}
   .offer-banner{padding:28px 22px;}
   .contact-list li{flex-direction:column;gap:2px;}
