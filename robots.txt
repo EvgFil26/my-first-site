@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erika-psy.ru/sitemap.xml
