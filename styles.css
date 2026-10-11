@@ -275,3 +275,4 @@ img{height:auto;}
 .hero-avatar{height:210px;}
 .about-cards{grid-template-columns:1fr;gap:16px;}
 @media (max-width:860px){.hero-avatar{height:150px;}.about-cards{grid-template-columns:1fr;}}
+.about-grid{align-items:center;}
