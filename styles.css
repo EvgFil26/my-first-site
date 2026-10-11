@@ -273,5 +273,5 @@ nav.main-nav a.btn{color:#fff;padding:8px 18px;}
 @media (max-width:860px){.hero-avatar{height:150px;}}
 img{height:auto;}
 .hero-avatar{height:210px;}
-.about-cards{grid-template-columns:1.5fr 1fr;align-items:start;}
+.about-cards{grid-template-columns:1fr;gap:16px;}
 @media (max-width:860px){.hero-avatar{height:150px;}.about-cards{grid-template-columns:1fr;}}
