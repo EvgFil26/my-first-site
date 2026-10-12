@@ -205,7 +205,7 @@ section{padding:64px 0;}
 .contact-list span.label{color:var(--ink-faint);}
 .contact-list a{text-decoration:none;font-weight:600;color:var(--ink);}
 .contact-list a:hover{color:var(--coral-deep);}
-.qr-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.qr-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
 .qr-card{
   background:var(--card);border:1px solid var(--border);border-radius:var(--radius-md);
   padding:16px;text-align:center;text-decoration:none;
@@ -276,3 +276,8 @@ img{height:auto;}
 .about-cards{grid-template-columns:1fr;gap:16px;}
 @media (max-width:860px){.hero-avatar{height:150px;}.about-cards{grid-template-columns:1fr;}}
 .about-grid{align-items:center;}
+.partner-banner{display:flex;align-items:center;gap:24px;margin-top:20px;background:var(--card);border:2px solid var(--coral);border-radius:var(--radius-lg);padding:26px 32px;}
+.partner-badge{flex:none;font-family:var(--font-display);font-size:2rem;font-weight:600;color:#fff;background:var(--coral-deep);border-radius:100px;padding:10px 22px;}
+.partner-banner h3{margin:0 0 .3em;}
+.partner-banner p{margin:0;}
+@media (max-width:860px){.partner-banner{flex-direction:column;text-align:center;gap:14px;padding:24px 20px;}}
